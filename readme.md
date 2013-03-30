@@ -26,59 +26,39 @@ Ruby and RubyGems
 
 ## Usage
 
-Download this kitchen
+### Download this kitchen
     
     git clone git://github.com/nickbarth/Development-Server-Kitchen.git
     
-Download cookbooks
+### Download cookbooks
     
     librarian-chef install
     
-Setup your connection (Optional)
+### Setup your connection (Optional)
     
     # vim ~/.ssh/config
-    Host matrix
+    Host server
       User root
       Hostname x
       port 22
+
+    # setup password-less ssh logins
+    ssh-keygen
+    ssh-copy-id -i ~/.ssh/id_rsa.pub root@server
+
+### Prepare server and install cookbooks
+
+    knife solo bootstrap server
+
+### Debug cookbooks (if needed)
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    ssh server
+    cd /tmp/chef-solo/
+    chef-solo -c solo.rb -j nodes/server.json
+
+### Complete
+
+You should now have a fully functional server setup with all your specified applications. 
+
+
+
