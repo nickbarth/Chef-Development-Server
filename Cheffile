@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'git', '>= 2.3.0'
+cookbook 'screen', '>= 0.8.0'
+cookbook 'vim', '>= 1.0.2'
+cookbook 'nginx', '>= 1.4.0'
+cookbook 'nodejs', '>= 1.1.1'
+cookbook 'mongodb', '>= 0.11.0'

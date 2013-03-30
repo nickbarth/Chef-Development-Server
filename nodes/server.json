@@ -1,0 +1,15 @@
+{
+  "nodejs": {
+    "version": "0.10.1",
+    "npm": "1.2.14"
+  },
+  "run_list": [
+    "recipe[git]",
+    "recipe[screen]",
+    "recipe[vim]",
+    "recipe[nginx]",
+    "recipe[nodejs]",
+    "recipe[nodejs::npm]",
+    "recipe[mongodb]"
+  ]
+}
