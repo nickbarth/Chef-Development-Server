@@ -1,7 +1,7 @@
 Development Server Kitchen
 ==========================
 
-Chef recipes to serve up a Node.js development environment.
+A [Chef Solo](http://docs.opscode.com/chef_client.html) kitchen for setting up a Node.js, Nginx, and MongoDB development server.
 
 ## Requirements
 
@@ -56,7 +56,7 @@ Ruby and RubyGems
     cd /tmp/chef-solo/
     chef-solo -c solo.rb -j nodes/server.json
 
-### Complete
+### Setup complete
 
 You should now have a fully functional server setup with all your specified applications. 
 
