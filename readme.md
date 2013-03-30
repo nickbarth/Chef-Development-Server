@@ -1,7 +1,9 @@
 Development Server Kitchen
 ==========================
 
-A [Chef Solo](http://docs.opscode.com/chef_client.html) kitchen for setting up a Node.js, Nginx, and MongoDB development server.
+A [Chef Solo](http://docs.opscode.com/chef_client.html) kitchen for setting up a 
+[Node.js](http://community.opscode.com/cookbooks/nodejs), [Nginx](http://community.opscode.com/cookbooks/nginx),
+and [MongoDB](http://community.opscode.com/cookbooks/mongodb) development server.
 
 ## Requirements
 
@@ -58,7 +60,7 @@ Ruby and RubyGems
 
 ### Setup complete
 
-You should now have a fully functional server setup with all your specified [cookbooks](http://community.opscode.com/). 
+You should now have a fully functional server setup with all specified [cookbooks](http://community.opscode.com/). 
 
 
 
