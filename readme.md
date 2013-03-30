@@ -54,7 +54,7 @@ Ruby and RubyGems
     
     ssh server
     cd /tmp/chef-solo/
-    chef-solo -c solo.rb -j nodes/server.json
+    chef-solo -c /tmp/chef-solo/solo.rb -j /tmp/chef-solo/nodes/server.json
 
 ### Setup complete
 
