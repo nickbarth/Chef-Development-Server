@@ -58,7 +58,7 @@ Ruby and RubyGems
 
 ### Setup complete
 
-You should now have a fully functional server setup with all your specified applications. 
+You should now have a fully functional server setup with all your specified [cookbooks](http://community.opscode.com/). 
 
 
 
