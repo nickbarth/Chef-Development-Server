@@ -9,9 +9,11 @@ and [MongoDB](http://community.opscode.com/cookbooks/mongodb) development server
 
 Ruby and RubyGems
     
-    yum install ruby
-    apt-get install ruby
-    brew install ruby
+    # Red Hat / CentOS - http://wiki.opscode.com/display/chef/Installing+Chef+Client+on+CentOS
+    yum install ruby ruby-devel ruby-ri ruby-rdoc ruby-shadow gcc gcc-c++ automake autoconf make curl dmidecode -y
+
+    # Ubuntu / Debian - http://wiki.opscode.com/display/chef/Installing+Chef+Client+on+Ubuntu+or+Debian
+    apt-get install ruby ruby-dev libopenssl-ruby rdoc ri irb build-essential wget ssl-cert curl -y
     
 [Chef Solo Gem](http://wiki.opscode.com/display/chef/Installing+Chef+Client+and+Chef+Solo)
     
