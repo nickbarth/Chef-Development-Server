@@ -1,5 +1,5 @@
-Development Server Kitchen
-==========================
+Chef Server Kitchen
+===================
 
 A [Chef Solo](http://docs.opscode.com/chef_client.html) kitchen for setting up a 
 [Node.js](http://community.opscode.com/cookbooks/nodejs), [Nginx](http://community.opscode.com/cookbooks/nginx),
